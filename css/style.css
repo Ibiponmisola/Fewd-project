@@ -47,6 +47,12 @@ p {
   color: #fff;
 }
 
+.bg-pry {
+  background: #93cb52;
+  color: #fff;
+
+}
+
 .l-heading {
   font-size: 5rem;
   margin-bottom: 0.75rem;
@@ -98,10 +104,12 @@ p {
   border-radius: 10px;
 }
 
+
 .btn-dark {
   background: #333;
   color: #fff;
 }
+
 
 .btn:hover {
   background: #7ab436;
@@ -222,4 +230,28 @@ p {
   display: block;
   margin: auto;
   width: 65%;
+}
+
+/*section for contact us */
+
+#contact {
+  display: flex;
+}
+
+#contact .map #contact .form {
+  flex: 1;
+}
+
+#contact .form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .form label {
+  display: block;
+}
+
+#contact .form input,
+#contact .form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }

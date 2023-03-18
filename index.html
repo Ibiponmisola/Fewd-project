@@ -23,20 +23,18 @@
     <title>Fewd Marketing Ltd | Communications and Marketing Management</title>
   </head>
 
-  <body id="home">
+  < id="home">
     <!--Navbar html-->
     <nav id="navbar">
       <h1 class="logo">
         <span class="text-pry">
-          <i class="fa-solid fa-book-open-reader"></i> FEWD
-        </span>
-        Marketing
+          <i class="fa-solid fa-book-open-reader"></i> FEWD</span>Marketing
       </h1>
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#What">What</a></li>
-        <li><a href="#Who">Who</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -123,6 +121,7 @@
     </section>
 
     <!-- section tag for our clients -->
+
     <section id="clients" class="py-1">
       <div class="container">
         <h2 class="m-heading text-center">
@@ -137,5 +136,85 @@
         </div>
       </div>
     </section>
-  </body>
+
+    <!-- section tag for our clients -->
+
+    <section id="contact">
+      <div class="form-group bg-pry p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>
+          Please fill the form below and our representative will respond within
+          10 minutes.
+        </p>
+        <form>
+          <div class="form">
+            <label for="Name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Name "
+            />
+          </div>
+
+          <div class="form">
+            <label for="Email">Email</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Email "
+            />
+          </div>
+
+          <div class="form">
+            <label for="Phone">Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone "
+              placeholder="Enter Phone Number "
+            />
+          </div>
+
+          <div class="form">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Messsage"
+            ></textarea>
+            <input type="submit" value="Send" class="btn-dark" />
+          </div>
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+
+    <!--footer tag-->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; FEWD Marketing, All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!--JQuery cdn-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--local js file -->
+    <script src="js/main.js"></script>
+
+    <!--this the area for the map. i couldnt get my map api due to some car payment issues on the google site.
+    
+      <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+
+  </script>-->
+
+  </ body>
 </html>
